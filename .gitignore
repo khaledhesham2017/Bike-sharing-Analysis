@@ -102,3 +102,12 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# libreoffice
+.~lock*
+
+# pycharm
+.idea/
+
+# model
+*.h5
