@@ -1,7 +1,6 @@
-import pandas as pd
+import utils
 
 
-filename = "Data/bike-sharing.csv"
-data = pd.read_csv(filename)
+data = utils.get_data()
 
 print(data.info())
